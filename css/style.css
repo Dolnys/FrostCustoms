@@ -92,6 +92,10 @@ header {
   font-weight: bold;
 }
 
+/* Footer */
+footer {
+  font-size: 1.6rem;
+}
 /* Media Queries */
 
 @media (min-width: 1400px) {
