@@ -23,6 +23,22 @@ body {
   z-index: -1;
 }
 
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.6rem;
+  height: 100%;
+  word-spacing: 10px;
+  text-transform: uppercase;
+}
 /* Navigation */
 
 nav {
@@ -96,6 +112,14 @@ header {
 footer {
   font-size: 1.6rem;
 }
+
+/* About Us */
+
+.aboutus-hero {
+  background-image: url(../img/about/about-1.jpg);
+  background-position: bottom;
+}
+
 /* Media Queries */
 
 @media (min-width: 1400px) {
